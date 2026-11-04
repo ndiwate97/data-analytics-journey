@@ -15,8 +15,11 @@
 
 ## 🎯 Goal
 
-Become a strong **Data Analyst**
+Become a strong **Data Analyst**.
+
 This repository is a record of what I learn, the code I write, and the projects I build.
+
+📓 **Study notes:** [My Notion notes](https://app.notion.com/p/Python-17aa37d0ed5c8034b490d2bde1792796?source=copy_link)
 
 ---
 
