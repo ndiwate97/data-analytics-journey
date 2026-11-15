@@ -41,7 +41,7 @@ flowchart LR
 
 | Phase | Topics | Status |
 |:--|:--|:--:|
-| 🐍 Python Fundamentals | Syntax, variables, data types, loops, functions | 🟡 In progress |
+| 🐍 Python Fundamentals | Basics, data types, operators, input/output done. Strings next | 🟡 In progress |
 | 🔢 NumPy | Arrays, calculations | ⬜ Not started |
 | 🐼 Pandas | Cleaning, transforming, analysing data | ⬜ Not started |
 | 📉 Visualisation | Matplotlib, Seaborn | ⬜ Not started |
@@ -58,9 +58,13 @@ flowchart LR
 | Day | Topic | Folder | Status |
 |:--:|:--|:--|:--:|
 | 01 | Introduction, syntax, comments, indentation, variables, `print()` | [`01-Python/Basics`](01-Python/Basics) | ✅ |
-| 02 | Data types and type conversion | | ⬜ |
-| 03 | Operators | | ⬜ |
-| 04 | Input / Output and strings | | ⬜ |
+| 02 | Data types and `type()` | [`01-Python/Basics`](01-Python/Basics) | ✅ |
+| 03 | Type conversion (`int()`, `float()`, `str()`, `bool()`) | [`01-Python/Basics`](01-Python/Basics) | ✅ |
+| 04 | Arithmetic and assignment operators | [`01-Python/Basics`](01-Python/Basics) | ✅ |
+| 05 | Comparison and logical operators | [`01-Python/Basics`](01-Python/Basics) | ✅ |
+| 06 | Input / Output (`input()`, `print()`, f-strings) | [`01-Python/Basics`](01-Python/Basics) | ✅ |
+| 07 | Mini project: shop profit calculator | `projects/` | 🟡 |
+| 08 | Strings | | ⬜ |
 
 *(Rows are added as I complete each topic.)*
 
@@ -82,7 +86,7 @@ flowchart LR
 
 | Project | Skills used | Link |
 |:--|:--|:--:|
-| Python mini project | Variables, operators, loops | ⬜ Coming soon |
+| Shop profit calculator | Variables, type conversion, operators, input/output | 🟡 In progress |
 | Pandas analysis | Cleaning, grouping, insights | ⬜ Coming soon |
 | SQL analysis | Joins, aggregations | ⬜ Coming soon |
 | Power BI dashboard | KPIs, visuals | ⬜ Coming soon |
@@ -95,15 +99,15 @@ flowchart LR
 ```
 data-analytics-journey/
 ├── README.md
+├── .gitignore
 ├── 01-Python/
-│   ├── Basics/
-│   │   └── BasicsPractice.ipynb
-│   └── notes/
+│   └── Basics/              ← practice notebooks (Days 1-6)
 ├── 02-NumPy-Pandas/
 ├── 03-Visualisation/
 ├── 04-SQL/
 ├── 05-PowerBI/
 └── projects/
+    └── shop-profit-calculator/
 ```
 
 *Folders are created as I reach each stage.*
