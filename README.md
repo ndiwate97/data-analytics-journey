@@ -41,7 +41,7 @@ flowchart LR
 
 | Phase | Topics | Status |
 |:--|:--|:--:|
-| 🐍 Python Fundamentals | Basics, data types, operators, input/output done. Strings next | 🟡 In progress |
+| 🐍 Python Fundamentals | Basics, data types, operators, input/output done. Strings (indexing and slicing done, methods next) | 🟡 In progress |
 | 🔢 NumPy | Arrays, calculations | ⬜ Not started |
 | 🐼 Pandas | Cleaning, transforming, analysing data | ⬜ Not started |
 | 📉 Visualisation | Matplotlib, Seaborn | ⬜ Not started |
@@ -63,8 +63,9 @@ flowchart LR
 | 04 | Arithmetic and assignment operators | [`01-Python/Basics`](01-Python/Basics) | ✅ |
 | 05 | Comparison and logical operators | [`01-Python/Basics`](01-Python/Basics) | ✅ |
 | 06 | Input / Output (`input()`, `print()`, f-strings) | [`01-Python/Basics`](01-Python/Basics) | ✅ |
-| 07 | Mini project: shop profit calculator | `projects/` | 🟡 |
-| 08 | Strings | | ⬜ |
+| 07 | Mini project: shop profit calculator | [`projects/shop-profit-calculator`](projects/shop-profit-calculator) | ✅ |
+| 08 | Strings: indexing and slicing | [`01-Python/Basics`](01-Python/Basics) | ✅ |
+| 09 | Strings: methods and formatting revision | | ⬜ |
 
 *(Rows are added as I complete each topic.)*
 
@@ -86,7 +87,7 @@ flowchart LR
 
 | Project | Skills used | Link |
 |:--|:--|:--:|
-| Shop profit calculator | Variables, type conversion, operators, input/output | 🟡 In progress |
+| [Shop profit calculator](projects/shop-profit-calculator) | Variables, type conversion, operators, input/output | ✅ Completed |
 | Pandas analysis | Cleaning, grouping, insights | ⬜ Coming soon |
 | SQL analysis | Joins, aggregations | ⬜ Coming soon |
 | Power BI dashboard | KPIs, visuals | ⬜ Coming soon |
