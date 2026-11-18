@@ -41,7 +41,7 @@ flowchart LR
 
 | Phase | Topics | Status |
 |:--|:--|:--:|
-| 🐍 Python Fundamentals | Basics, data types, operators, input/output done. Strings (indexing and slicing done, methods next) | 🟡 In progress |
+| 🐍 Python Fundamentals | Basics, data types, operators, input/output, strings done. Lists next | 🟡 In progress |
 | 🔢 NumPy | Arrays, calculations | ⬜ Not started |
 | 🐼 Pandas | Cleaning, transforming, analysing data | ⬜ Not started |
 | 📉 Visualisation | Matplotlib, Seaborn | ⬜ Not started |
@@ -65,7 +65,8 @@ flowchart LR
 | 06 | Input / Output (`input()`, `print()`, f-strings) | [`01-Python/Basics`](01-Python/Basics) | ✅ |
 | 07 | Mini project: shop profit calculator | [`projects/shop-profit-calculator`](projects/shop-profit-calculator) | ✅ |
 | 08 | Strings: indexing and slicing | [`01-Python/Basics`](01-Python/Basics) | ✅ |
-| 09 | Strings: methods and formatting revision | | ⬜ |
+| 09 | Strings: methods and formatting | [`01-Python/Basics`](01-Python/Basics) | ✅ |
+| 10 | Lists | | ⬜ |
 
 *(Rows are added as I complete each topic.)*
 
